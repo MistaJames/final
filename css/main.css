@@ -321,7 +321,7 @@ footer {
 	}
 	
 	nav {
-	width: 136px;
+	width: autopx;
 	margin-left: 24px;
 	float: none;
 	padding: 0;
@@ -329,7 +329,10 @@ footer {
 	
 	nav li {
 	display: inline;
-	font-size: 10pt;
+	font-size: 8pt;
+	padding: 0;
+	margin: 0;
+	border: none;
 	}
 	
 	article {
