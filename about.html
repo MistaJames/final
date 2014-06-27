@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Week 6 Final - Mindy's Bridal and Dress Shop</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <header>
+        	<h1>Mindy's Bridal and Dress Shop</h1>
+        	<h2>Where memories begin</h2>
+        </header>
+        <nav data-0="position:absolute;top:550px;" data-550="position:absolute;top:550px;" data-1500="position:absolute;top:1550px;">
+        	<ul>
+        		<li><a href="index.html">Home</a></li>
+        		<li><a href="about.html">About/FAQ</a></li>
+        		<li><a href="dresses.html">Dresses</a></li>
+        		<li><a href="contact.html">Contact</a></li>
+        	</ul>
+        </nav>
+        <article>
+        	<h2>About/FAQ</h2>
+			<ul>
+				<li><a href="#question1">What is Mindy's Bridal and Dress Shop?</a></li>
+				<li><a href="#question2">What do you sell</a></li>
+				<li><a href="#question3">How do I order?</a></li>
+				<li><a href="#question4">Do you do any additional services?</a></li>
+				<li><a href="#question5">What about orders over long distance (via phone and/or Internet)?</a></li>
+				<li><a href="#question6">How can pay for my order?</a></li>
+			</ul>
+			<hr>
+        	<section id="question1">
+        		<h3>What is Mindy's Bridal and Dress Shop?</h3>
+        		<p>Mindy's Bridal and Dress Shop is privately owned and operated for over 15 years. We order from a variety of dress designers, and also special made dresses from your own designs and concepts.</p>
+        	</section>
+			<section id="question2">
+				<h3>What do you sell?</h3>
+				<p>We sell bridal dresses, as well as bridesmaids, prom, special occasions, and flower girl dresses. We also sell bridal accessories, such as shoes, veils, and crowns.</p>
+			</section>
+			<section id="question3">
+				<h3>How do I order dresses?</h3>
+				<p>We take the customer's measurements and the down payment to take the orders.</p>
+			</section>
+			<section id="question4">
+				<h3>Do you do any additional services?</h3>
+				<p>We do in-store alterations and shoe dyes.</p>
+			</section>
+			<section id="question5">
+				<h3>What about orders over long distance (via phone and/or Internet)?</h3>
+				<p>We can also take your order by your measurements.</p>
+			</section>
+			<section id="question6">
+				<h3>How can pay for my order?</h3>
+				<p>We accept cash, check, and all major credit cards.</p>
+			</section>
+		</article>
+        <footer>
+			2014. By Bernard James Tennant.
+		</footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/skrollr.min.js"></script>
+		<script src="js/vendor/skrollr.menu.min.js"></script>
+		<script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		
+		<script type="text/JavaScript">
+		if ($(window).width() > 600) {
+			var s = skrollr.init();
+			
+			skrollr.menu.init(s, {
+				//skrollr will smoothly animate to the new position using `animateTo`.
+				animate: true,
+
+				//The easing function to use.
+				easing: 'sqrt',
+
+				//How long the animation should take in ms.
+				duration: function(currentTop, targetTop) {
+					//By default, the duration is hardcoded at 500ms.
+					return 500;
+				},
+			});
+		}
+		</script>
+		
+    </body>
+</html>
